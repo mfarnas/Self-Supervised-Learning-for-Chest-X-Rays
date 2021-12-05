@@ -15,7 +15,7 @@ def get_transform(args, training):
     if training:
         transforms_list += [transforms.RandomHorizontalFlip(),
                             transforms.RandomRotation(args.rotate),
-                            transforms.RandomAffine(0, translate=(0, 0.2), scale=(1, 1.20)), 
+#                            transforms.RandomAffine(0, translate=(0, 0.2), scale=(1, 1.20)), 
                             transforms.RandomCrop((args.crop, args.crop)) if args.crop != 0 else None, 
                             
                             ]
