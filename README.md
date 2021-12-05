@@ -1,6 +1,6 @@
 # Self-Supervised-Learning-for-Chest-X-Rays
 
-To run MoCo in terminal:
+### To Pretrain model using MoCo SSL in terminal:
 
 ```
 python main_moco.py -a densenet121 \
